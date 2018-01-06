@@ -2,5 +2,4 @@ image: Visual Studio 2017
 
 install:
   - ps: dotnet --version # to show it is of version 2.0 and that this works fine
-  - ps: dotnet new mstest # works but throws an error when being run in AppVeyor
-  - ps: dotnet new xunit  # works but throws an error when being run in AppVeyor
+  - ps: get-command Add-AppveyorCompilationMessage
