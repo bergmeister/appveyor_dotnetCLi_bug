@@ -2,4 +2,4 @@ image: Visual Studio 2017
 
 build:
   - ps: dotnet --version # to show it is of version 2.0 and that this works fine
-  - ps: |  Add-AppveyorTest -Name "Test A" -Framework NUnit -Filename a.msi -Outcome Failed
+  - ps: Add-AppveyorTest -Name "Test A" -Framework NUnit -Filename a.msi -Outcome Failed
