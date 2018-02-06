@@ -4,7 +4,7 @@ build:
   - ps: dotnet --version # to show it is of version 2.0 and that this works fine
   - ps: |
           $addAppVeyorTestParameters = @{
-            Name = "hello2
+            Name = "hello2"
             Framework = 'MSI'
             Filename = "bla.ms"
             Outcome = "failed"
