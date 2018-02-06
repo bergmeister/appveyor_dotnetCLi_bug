@@ -1,4 +1,4 @@
 image: Visual Studio 2017
 
-build:
+install:
   - ps: Add-AppveyorTest -Name "Test A" -Framework NUnit -Filename a.msi -Outcome Failed
