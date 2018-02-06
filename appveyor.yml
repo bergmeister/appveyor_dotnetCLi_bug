@@ -8,5 +8,5 @@ build:
             Filename = "bla.ms"
             Outcome = "failed"
           }
-          Add-AppveyorTest @addAppVeyorTestParameters
+          Add-AppveyorTest $addAppVeyorTestParameters
 -
